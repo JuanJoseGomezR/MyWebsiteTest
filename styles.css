@@ -1,0 +1,64 @@
+:root {
+    --color-dark-blue: rgb(37, 29, 58);
+    --color-blue: rgb(42, 37, 80);
+    --color-dark-orange: rgb(224, 77, 1);
+    --color-light-organge: rgb(255, 119, 0);
+}
+
+html {
+    box-sizing: border-box;
+    scroll-behavior:smooth
+}
+
+*,*::before,*::after {
+    box-sizing: inherit;
+}
+
+header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(Images/cottonbro.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans';
+}
+
+nav {
+    background-color: yellow;
+    display: flex;
+    padding: 0.5% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 6px 12px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.logo {
+    width: 10%;
+}
