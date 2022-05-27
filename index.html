@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="normalize.css">
+    <script src="https://kit.fontawesome.com/4041cc5332.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -12,7 +13,8 @@
             <div class="logo">
                 <img src="Img/tjrj.png" alt="Logo Blazek Studios">
             </div>
-            <div class="nav-links">
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#projects">Projects</a></li>
@@ -45,5 +47,6 @@
             <h2>This a personal website to show my projects to the world and to <br>promote myself as a software engineer.</h2>
         </section>
     </article>
+    <script src="script.js"></script>
 </body>
 </html>
