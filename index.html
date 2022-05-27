@@ -3,27 +3,31 @@
 <head>
     <title>Juan Gómez</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css" integrity="sha512-+mlclc5Q/eHs49oIOCxnnENudJWuNqX5AogCiqRBgKnpoplPzETg2fkgBFVC6WYUVxYYljuxPNG8RE7yBy1K+g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://kit.fontawesome.com/4041cc5332.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <nav>
-            <div class="logo">
-                <img src="Img/tjrj.png" alt="Logo Blazek Studios">
-            </div>
-            <div class="nav-links" id="navLinks">
-                <i class="fas fa-times" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
+        <div class="logo">
+            <img src="Img/tjrj.png" alt="Logo Blazek Studios">
+        </div>
     </header>
+    <button id="epa" class="panel-btn hamburger hamburger--emphatic" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+    </button>
+    <aside class="panel">
+        <nav class="menu">
+            <a href="#home">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </aside>
     <article>
         <section id="home" class="section">
             <img src="Img/FotoPerfil.jpg" alt="perfil">
@@ -47,6 +51,6 @@
             <h2>This a personal website to show my projects to the world and to <br>promote myself as a software engineer.</h2>
         </section>
     </article>
-    <script src="script.js"></script>
+    <script type="module" src="script.js"></script>
 </body>
 </html>

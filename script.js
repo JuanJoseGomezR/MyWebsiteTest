@@ -1,3 +1,11 @@
+import hamburguerMenu from "./js/hamburger.js";
+
+const d = document;
+
+d.addEventListener("DOMContentLoaded", (e) => {
+    hamburguerMenu(".panel-btn", ".panel");
+});
+
 var navLinks = document.getElementById("navLinks");
 
 function showMenu() {
@@ -7,3 +15,4 @@ function showMenu() {
 function hideMenu() {
     navLinks.style.right = "-300px"
 }
+
