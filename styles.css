@@ -1,8 +1,12 @@
+@import url(https://allfont.net/allfont.css?fonts=agency-fb);
+
 :root {
     --color-dark-blue: rgb(37, 29, 58);
     --color-blue: rgb(42, 37, 80);
     --color-dark-orange: rgb(224, 77, 1);
-    --color-light-organge: rgb(255, 119, 0);
+    --color-light-orange: rgb(255, 119, 0);
+
+    --font-200: normal 100 2rem 'Agency FB', cursive;
 }
 
 html {
@@ -15,26 +19,31 @@ html {
 }
 
 header {
-    min-height: 100vh;
+    min-height: 10vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(Images/cottonbro.jpg);
-    background-position: center;
-    background-size: cover;
+    /*background-image: linear-gradient(rgba(25, 5, 71, 0.7), rgba(4,9,30,0.7)), url(Img/fondo.jpg);*/
     position: relative;
 }
 
 body {
     overflow-x: hidden;
+    background-color: var(--color-blue);
+    background-image: linear-gradient(rgba(3, 15, 63, 0.7), rgba(2, 16, 70, 0.7)), url(Img/cottonbro.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
 }
 
 * {
+    color: var(--color-light-orange);
     margin: 0;
     padding: 0;
-    font-family: 'Work Sans';
+    font: var(--font-200);
+
 }
 
 nav {
-    background-color: yellow;
     display: flex;
     padding: 0.5% 6%;
     justify-content: space-between;
@@ -54,11 +63,50 @@ nav {
 }
 
 .nav-links ul li a {
-    color: #fff;
     text-decoration: none;
     font-size: 25px;
 }
 
 .logo {
-    width: 10%;
+    top: 10px;
+    width: 70%;
 }
+
+h1 {
+    color: var(--color-dark-orange);
+    font: var(--font-200);
+}
+
+h2 {
+    font: var(--font-open);
+    font: var(--font-200);
+    color: var(--color-light-orange);
+}
+
+.section {
+    background-color: var(--color-dark-blue);
+}
+
+#home {
+    padding: 2rem;
+    margin: 10%;
+    background-color: var(--color-dark-blue);
+    border-style: groove;
+    border-radius: 10%;
+    border-color: var(--color-light-orange);
+    text-align: center;
+    
+}
+
+#home img {
+    width: 40%;
+    border-radius: 50%;
+    border-style: dashed;
+    border-width: 15px;
+    border-color: var(--color-light-orange);
+}
+
+#projects {
+    margin-top: 80vh;
+}
+
