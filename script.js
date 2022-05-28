@@ -3,7 +3,7 @@ import hamburguerMenu from "./js/hamburger.js";
 const d = document;
 
 d.addEventListener("DOMContentLoaded", (e) => {
-    hamburguerMenu(".panel-btn", ".panel");
+    hamburguerMenu(".panel-btn", ".panel", ".menu a");
 });
 
 var navLinks = document.getElementById("navLinks");
