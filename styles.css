@@ -1,13 +1,12 @@
 @import url("font/agency-fb_[allfont.net].ttf");
-@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 :root {
     --color-dark-blue: rgb(37, 29, 58);
     --color-blue: rgb(42, 37, 80);
     --color-dark-orange: rgb(224, 77, 1);
     --color-light-orange: rgb(255, 119, 0);
 
-    --font-200: normal 500 1.2rem 'Agency FB', Sans-serif;
+    --font-200: normal 200 1.2rem 'Shadows Into Light', Sans-serif;
 }
 
 html {
