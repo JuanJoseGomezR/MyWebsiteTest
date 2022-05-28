@@ -20,7 +20,7 @@ body {
     background-color: var(--color-blue);
     background-image: linear-gradient(rgba(18, 6, 53, 0.7), rgba(0, 0, 0, 0.7)), url(Img/cottonbro.jpg);
     background-position: top;
-    background-size: 150vh;
+    background-size: 160vh;
     background-repeat: no-repeat;
     position: relative;
 }
@@ -92,7 +92,7 @@ h2 {
 
 #home {
     padding: 1rem;
-    margin: 10%;
+    margin: 0% 10%;
     background: none;
     background-color: rgba(37, 29, 58, 0.6);
     border-width: 10px;
@@ -111,8 +111,16 @@ h2 {
     border-color: var(--color-light-orange);
 }
 
+
+#contact {
+    display: flex;
+    justify-content: space-between;
+    margin: 4vh 15vw;
+    background: none;
+}
+
 #projects {
-    margin-top: 0vh;
+    margin-top: 15vh;
 }
 
 /***** Hamburguer Maenu ****/
