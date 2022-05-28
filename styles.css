@@ -23,6 +23,7 @@ body {
     background-size: 160vh;
     background-repeat: no-repeat;
     position: relative;
+    font: var(--font-200);
 }
 
 *,*::before,*::after {
