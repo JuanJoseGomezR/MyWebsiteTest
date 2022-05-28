@@ -111,11 +111,10 @@ h2 {
     border-color: var(--color-light-orange);
 }
 
-
 #contact {
     display: flex;
     justify-content: space-between;
-    margin: 4vh 15vw;
+    margin: 5vh 12vw;
     background: none;
 }
 
