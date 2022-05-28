@@ -1,12 +1,10 @@
-@import url("font/agency-fb_[allfont.net].ttf");
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300&display=swap');:root {
     --color-dark-blue: rgb(37, 29, 58);
     --color-blue: rgb(42, 37, 80);
     --color-dark-orange: rgb(224, 77, 1);
     --color-light-orange: rgb(255, 119, 0);
 
-    --font-200: normal normal 200 1.2rem 'Agency FB', 'Sans-serif';
+    --font-200: normal 300 1.2rem 'Outfit', Sans-serif;
 }
 
 html {
@@ -95,11 +93,14 @@ h2 {
 
 .section {
     background-color: var(--color-dark-blue);
+    margin: 5vw 2vh;
+    border-radius: 5%;
+    border-style: dotted;
 }
 
 #home {
     padding: 1rem;
-    margin: 0% 10%;
+    margin: 0 10%;
     background: none;
     background-color: rgba(37, 29, 58, 0.6);
     border-width: 10px;
@@ -119,6 +120,7 @@ h2 {
 }
 
 #contact {
+    border-style: none;
     display: flex;
     justify-content: space-between;
     margin: 5vh 12vw;
@@ -126,7 +128,20 @@ h2 {
 }
 
 #projects {
-    margin-top: 15vh;
+    margin-top: 12vh;
+    text-align: center;
+}
+
+#projects h1 {
+    margin: 10%;
+}
+
+#projects h2 {
+    margin: 5%;
+}
+
+#img-snack {
+    padding: 150px 50px;
 }
 
 /***** Hamburguer Maenu ****/
