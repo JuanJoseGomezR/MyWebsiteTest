@@ -112,7 +112,7 @@ h2 {
 }
 
 #projects {
-    margin-top: 80vh;
+    margin-top: 0vh;
 }
 
 /***** Hamburguer Maenu ****/
@@ -158,10 +158,10 @@ h2 {
 }
 
 .menu a {
-    padding: 4.4rem;
+    padding: 3.1rem;
     width: inherit;
     display: block;
-    font-size: 2.2rem;
+    font-size: 2rem;
     text-decoration: none;
     color: var(--color-light-orange);
     transition: all 0.3s ease;
