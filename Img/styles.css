@@ -214,157 +214,33 @@ h2 {
     background-color: var(--color-dark-orange);
 }
 
-@media (min-width: 992px) {
-    header {
-        height: 26vh;
-    }
-
+@media (max-width: 900px) {
     body {
         background-size: 100vw;
     }
 
     .logo {
-        width: 30%;
+        width: 20%;
     }
 
     .panel {
-        position: absolute;
-        z-index: 998;
-        width: 100%;
-        top: 0;
-        right: 0;
-        background: none;
-        transition: transform .3s ease;
-        transform: translate(0, 0%);
-    }
-
-    .panel-btn {
-        position: absolute;
-        z-index: 999;
-        bottom: 1vh;
-        right: 1vw;
-        width: 4rem;
-        height: 4rem;
-        border-radius: 50%;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        transform: translate(0, -180%);
     }
 
     .nav-links {
         position: relative;
-        color: var(--color-dark-orange);
+        color: var(--color-blue);
         background-color: var(--color-dark-orange);
-        right: 0px;
+        right: -300px;
     }
     
     
     .nav-links ul li {
-        display: flex;
-        justify-content: space-between;
+        display: block;
     }
     
     .nav-links ul li a {
         text-decoration: none;
         font-size: 25px;
-    }
-
-    .menu {
-        margin-top: 5vh;
-        margin-left: 40vw;
-        width: 50%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
-        text-align: cenrer;
-    }
-    
-    .menu a {
-        padding: 1.1rem;
-        width: 100%;
-        display: block;
-        font-size: 1.8rem;
-        text-decoration: none;
-        color: var(--color-light-orange);
-        transition: all 0.3s ease;
-    }
-    
-    .menu a:hover {
-        font-weight: bold;
-        color: var(--color-dark-blue);
-        background: none;
-    }
-
-    .fa-gamepad {
-        opacity: 0%;
-    }
-
-    #home {
-        padding: .5rem;
-        margin-top: 0;
-        margin: 0 25%;
-        background: none;
-        background-color: rgba(37, 29, 58, 0.6);
-        border-width: 5px;
-        border-style: double;
-        border-radius: 5%;
-        border-color: var(--color-dark-orange);
-        text-align: center;
-    }
-    
-    #home img {
-        width: 25%;
-        border-radius: 50%;
-        border-style: dashed;
-        border-width: 5px;
-        border-color: var(--color-light-orange);
-    }
-
-    #contact {
-        margin-top: 10vh;
-    }
-
-    #projects {
-        margin-top: 12vh;
-        margin-bottom: 5vh;
-        text-align: center;
-    }
-    
-    #projects h1 {
-        margin: 2%;
-    }
-    
-    #projects h2 {
-        margin: 2%;
-    }
-
-    #projects div {
-        margin-bottom: 10vh;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    #projects img {
-        width: 30%;
-    }
-
-    #about {
-        margin-top: 0vh;
-        text-align: center;
-    }
-
-    #about h1{
-        margin: 4%;
-    }
-    
-    #about h2 {
-        margin: 4%;
-    }
-
-    .panel-btn {
-        opacity: 0%;
     }
 }
